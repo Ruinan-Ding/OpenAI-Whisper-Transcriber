@@ -161,7 +161,7 @@ You are a professional translator with 20 years of experience and you have been 
 
 ## Contributing 🤝🌱
 
-Contributions from users are highly valued and appreciated. There are two main ways to contribute to this project: through pull requests and issues. New features can be or will be discussed in [IDiscussions](https://github.com/Ruinan-Ding/openai-wisper-transcriber/discussions) section of the repository.
+Contributions from users are highly valued and appreciated. There are two main ways to contribute to this project: through pull requests and issues. New features can be or will be discussed in [Discussions](https://github.com/Ruinan-Ding/openai-wisper-transcriber/discussions) section of the repository.
 
 ### Pull Requests
 
