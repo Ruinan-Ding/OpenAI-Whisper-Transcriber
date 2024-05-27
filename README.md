@@ -72,7 +72,7 @@ https://phoenixnap.com/kb/install-ffmpeg-ubuntu
 1. Run the script:
 
    ```bash
-   python OpenAIWhisperTranscriber.py
+   python OpenAIWhisperYouTubeTranscriber.py
    ```
 
 2. When prompted, enter the YouTube video URL you wish to transcribe:
