@@ -1,4 +1,4 @@
-# 🤖🎬 OpenAI Whisper Transcriber 🎧📝
+# 🤖🎬 OpenAI Whisper YouTube Transcriber 🎧📝
 
 A sophisticated and user-friendly automation that downloads audio from YouTube videos, transcribes the content into text, detects the language of the transcribed text, and saves the transcription to a text file. Save time, effort, and resources by harnessing cutting-edge technology to streamline the transcription process. Forked from [audio-to-text-transcription](https://github.com/javedali99/audio-to-text-transcription).
 
@@ -164,7 +164,7 @@ You are a professional translator with 20 years of experience and you have been 
 
 ## Contributing 🤝🌱
 
-Contributions from users are highly valued and appreciated. There are two main ways to contribute to this project: through pull requests and issues. New features can be or will be discussed in [Discussions](https://github.com/Ruinan-Ding/OpenAI-Whisper-Transcriber/discussions) section of the repository.
+Contributions from users are highly valued and appreciated. There are two main ways to contribute to this project: through pull requests and issues. New features can be or will be discussed in [Discussions](https://github.com/Ruinan-Ding/OpenAI-Whisper-YouTube-Transcriber/discussions) section of the repository.
 
 ### Pull Requests
 
@@ -175,7 +175,7 @@ Contributions from users are highly valued and appreciated. There are two main w
 
 ### Issues
 
-1. Navigate to the [Issues](https://github.com/Ruinan-Ding/OpenAI-Whisper-Transcriber/issues) section of the repository.
+1. Navigate to the [Issues](https://github.com/Ruinan-Ding/OpenAI-Whisper-YouTube-Transcriber/issues) section of the repository.
 2. Check if there is an existing issue similar to the one you'd like to create.
 3. If there isn't an existing issue, create a new issue by clicking the "New issue" button.
 4. Provide a descriptive title and detailed information about the proposed changes that you want to potentially add to the current script.
