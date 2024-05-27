@@ -123,7 +123,7 @@ Or you can use the Cont+R and manually replace the mispellings with a text edito
 Another way to get a transcript is that you can grab the transcript from YouTube, provided it has an auto-generated text, and paste it to chatgpt and ask it to transcribe it:
 
 ```bash
-`You are a professional transcriber with 20 years of experience and you have been transcribing transcripts in verbatim for 20 years. You will turn a YouTube video transcript below into proper English format verbatim so I can watch the video and follow the transcript exactly word for word. Leave out any timestamps but do not leave out any context. Do not summarize anything in the output:
+You are a professional transcriber with 20 years of experience and you have been transcribing transcripts in verbatim for 20 years. You will turn a YouTube video transcript below into proper English format verbatim so I can watch the video and follow the transcript exactly word for word. Leave out any timestamps but do not leave out any context. Do not summarize anything in the output:
 
 
 <insert generated text>
