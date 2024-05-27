@@ -5,7 +5,7 @@
 
 #Description
 #To run this script, use the following command:
-#python OpenAIWisperTranscriber.py
+#python OpenAIWhisperYouTubeTranscriber.py
 #Input the YouTube video URL when prompted, and it will download the audio and video streams from the URL along with the transcription of the audio.
 
 
