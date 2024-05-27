@@ -98,9 +98,9 @@ https://phoenixnap.com/kb/install-ffmpeg-ubuntu
 
 Once in a few while, the punctuation gets ruined. Sometimes this happens for the whole transcript, sometimes it happens at the middle of it.
 
-Sometimes, the spelling is wrong, you can prompt ChatGPT to fix it or manually fix it using Cltr+R.
+Sometimes, the script picks up the wrong words or the spelling is wrong, you can prompt ChatGPT to fix it or manually fix it using Cltr+R.
 
-Also, once a while, the script may throw an exception regarding some regex expression in `cipher.py` or some sorts randomly one day. This is believed to be caused by some sort of change on the YouTube server side. You can try some suggestion regarding modifying the regex expression suggested on StackOverflow which may or may not work, but usually, this script starts working again the next day or in a few hours. Meanwhile, you can prompt ChatGPT to transcribe off of the YouTube auto-generated transcript
+Also, once a while, the script may throw an exception regarding some regex expression in `cipher.py` or some sorts randomly one day. This is believed to be caused by some sort of change on the YouTube server side. You can try some suggestion regarding modifying the regex expression suggested on Stack Overflow which may or may not work, but usually, this script starts working again the next day or in a few hours. Meanwhile, you can prompt ChatGPT to transcribe off of the YouTube auto-generated transcript
 
 ## Tips
 
@@ -112,16 +112,16 @@ Fix the punctuation or grammar below but keep the output verbatim:
 <insert generated text>
 ```
 
-It may often picks up the wrong words, you can prompt ChatGPT to fix it and paste in the transcript, for example:
+It may often pick up the wrong words, you can prompt ChatGPT to fix it and paste in the transcript, for example:
 
 ```bash
-Below is a machine-generated transcript. Correct any misspellings and grammar but do not summarize the transcript or leave anything out:
+Below is an auto-generated transcript. Correct any misspellings and grammar but do not summarize the transcript or leave anything out:
 
 
 <insert generated text>
 ```
 
-Or you can use the Cont+R and manually replace the mispellings with a text editor.
+Or you can use the Ctrl+R and manually replace the mispellings with a text editor.
 
 Another way to get a transcript is that you can grab the transcript from YouTube, provided it has an auto-generated text, and paste it to chatgpt and ask it to transcribe it:
 
@@ -132,7 +132,7 @@ You are a professional transcriber with 20 years of experience and you have been
 <insert generated text>
 ```
 
-As of GPT-3.5, it tends to summerize the youtube transcript if it is too long, so you may need to break it into parts and ask ChatGPT to do each individually.
+As of GPT-3.5, it tends to summarize the youtube transcript if it is too long, so you may need to break it into parts and ask ChatGPT to do each individually.
 
 How to get YouTube transcript:
 https://www.descript.com/blog/article/transcript-of-youtube-videos
