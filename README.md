@@ -96,7 +96,7 @@ https://phoenixnap.com/kb/install-ffmpeg-ubuntu
 
 ## Known Issues
 
-Once in a few while, the punctuations gets ruined. Sometimes this happens for the whole transcript, sometimes it happens at the middle of it.
+Once in a few while, the punctuation gets ruined. Sometimes this happens for the whole transcript, sometimes it happens at the middle of it.
 
 Sometimes, the spelling is wrong, you can prompt ChatGPT to fix it or manually fix it using Cltr+R.
 
@@ -104,10 +104,10 @@ Also, once a while, the script may throw an exception regarding some regex expre
 
 ## Tips
 
-You can prompt ChatGPT to fix the puncutations when it happens:
+You can prompt ChatGPT to fix the punctuation when it happens:
 
 ```bash
-Fix the punctuations or grammar below but keep the output verbatim:
+Fix the punctuation or grammar below but keep the output verbatim:
 
 <insert generated text>
 ```
