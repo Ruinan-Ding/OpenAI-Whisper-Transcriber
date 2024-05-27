@@ -172,7 +172,7 @@ Contributions from users are highly valued and appreciated. There are two main w
 
 ### Issues
 
-1. Navigate to the [Issues](https://github.com/Ruinan-Ding/openai-wisper-transcriber/pulls) section of the repository.
+1. Navigate to the [Issues](https://github.com/Ruinan-Ding/openai-wisper-transcriber/issues) section of the repository.
 2. Check if there is an existing issue similar to the one you'd like to create.
 3. If there isn't an existing issue, create a new issue by clicking the "New issue" button.
 4. Provide a descriptive title and detailed information about the proposed changes that you want to potentially add to the current script.
