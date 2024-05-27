@@ -56,13 +56,16 @@ This script is designed to facilitate the transcription of YouTube videos into t
    pip install langdetect
    ```
 
-   3. Download FFmpeg and add it to environment variables.
-   Windows:
-   https://phoenixnap.com/kb/ffmpeg-windows
-   Mac:
-   https://phoenixnap.com/kb/ffmpeg-mac
-   Ubuntu:
-   https://phoenixnap.com/kb/install-ffmpeg-ubuntu
+3. Download FFmpeg and add it to environment variables:
+
+Windows:
+https://phoenixnap.com/kb/ffmpeg-windows
+
+Mac:
+https://phoenixnap.com/kb/ffmpeg-mac
+
+Ubuntu:
+https://phoenixnap.com/kb/install-ffmpeg-ubuntu
       
 ## Usage
 
