@@ -1,6 +1,6 @@
-# 🤖🎬 YouTube Audio-to-Text Transcription 🎧📝
+# 🤖🎬 OpenAI Wisper Transcriber 🎧📝
 
-A sophisticated and user-friendly automation that downloads audio from YouTube videos, transcribes the content into text, detects the language of the transcribed text, and saves the transcription to a text file. Save time, effort, and resources by harnessing cutting-edge technology to streamline the transcription process.
+A sophisticated and user-friendly automation that downloads audio from YouTube videos, transcribes the content into text, detects the language of the transcribed text, and saves the transcription to a text file. Save time, effort, and resources by harnessing cutting-edge technology to streamline the transcription process. Forked from (audio-to-text-transcription)[https://github.com/javedali99/audio-to-text-transcription].
 
 ## Table of Contents
 
