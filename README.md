@@ -82,9 +82,23 @@ This script is designed to facilitate the transcription of YouTube videos into t
 
 2. When prompted, enter the YouTube video URL you wish to transcribe:
 
-   ```
+   ```bash
    Enter the YouTube video URL in this format: https://www.youtube.com/watch?v=XXXXXXXXXXX
    ```
+
+   For example:
+
+   ```bash
+   Enter the YouTube video URL: https://www.youtube.com/watch?v=jNQXAC9IVRw
+   ```
+
+   or
+
+   ```bash
+   Enter the YouTube video URL: https://www.youtube.com/watch?v=ngRq82c8Baw
+   ```
+
+   You can copy the youtube link and use Shift+Ins to paste the link into the terminal.
 
 3. The script will download the audio, transcribe it, detect language, and save the transcription to a text file called `Transcription_{language}.txt`.
 
@@ -94,10 +108,10 @@ This script is designed to facilitate the transcription of YouTube videos into t
 
 1. The user inputs a YouTube video URL when prompted.
 2. The `pytube` library is used to create a `YouTube` object and filter the audio stream.
-3. The audio stream is downloaded as an MP3 file and saved in the `Audio` folder. Video stream is optionally downloaded by uncommenting a block of code.
+3. The audio stream is downloaded as an .mp3 file and saved in the `Audio` folder. Video stream can be optionally downloaded as an .mp4 format by uncommenting a block of code. Video of the highest resolution with audio is can also be optionally downloaded as an .mp4 format by uncommenting a block of code.
 4. The `whisper` library loads a base model and transcribes the downloaded audio into text.
 5. The `langdetect` library detects the language of the transcribed text.
-6. The transcription is saved to a text file named `Transcription_{language}.txt` with the language code as part of the filename and opened for the user to view. Audio file is deleted but can be optionally kept by uncommenting a line.
+6. The transcription is saved to a text file named `Transcription_{language}.txt` with the language code as part of the filename and opened for the user to view. Audio file will be deleted but can be optionally kept by uncommenting a line.
 
 ## Known Issues
 
