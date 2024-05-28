@@ -67,25 +67,25 @@ This script is designed to facilitate the transcription of YouTube videos into t
 3. Download FFmpeg and add it to environment variables:
 
    Windows:
-   If you do not have Scoop, run Powershell as administratior and run the following commands:
-   ```bash
-   Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
-   Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
-   ```
-   Then on a command prompt, run:
-   ```bash
-   scoop install ffmpeg
-   ```
+     If you do not have Scoop, run Powershell as administratior and run the following commands:
+     ```bash
+     Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+     Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
+     ```
+     Then on a command prompt, run:
+     ```bash
+     scoop install ffmpeg
+     ```
 
    Mac:
-   ```bash
-   brew install ffmpeg
-   ```
+     ```bash
+     brew install ffmpeg
+     ```
 
    Ubuntu:
-   ```bash
-   sudo apt update && sudo apt install ffmpeg
-   ```
+     ```bash
+     sudo apt update && sudo apt install ffmpeg
+     ```
       
 ## Usage
 
