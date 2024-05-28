@@ -4,7 +4,7 @@ A sophisticated and user-friendly automation that downloads audio from YouTube v
 
 ## Table of Contents
 
-- [🤖🎬 YouTube Audio-to-Text Transcription 🎧📝](#-youtube-audio-to-text-transcription-)
+- [🤖🎬 YouTube Audio-to-Text Transcription 🎧📝](#-OpenAI-Whisper-YouTube-Transcriber-)
   - [Description](#description)
   - [Key Features](#key-features)
   - [Prerequisites](#prerequisites)
@@ -100,6 +100,8 @@ Sometimes, the script picks up the wrong words or the spelling is wrong, you can
 Also, once a while, the script may throw an exception regarding some regex expression in `cipher.py` or some sorts randomly one day. This is believed to be caused by some sort of change on the YouTube server side. You can try some suggestion regarding modifying the regex expression suggested on Stack Overflow which may or may not work, but usually, this script starts working again the next day or in a few hours. Meanwhile, you can prompt ChatGPT to transcribe off of the YouTube auto-generated transcript
 
 ## Tips
+
+[ChatGPT](https://chatgpt.com/) can fix most issues.
 
 You can prompt ChatGPT to fix the punctuation when it happens:
 
