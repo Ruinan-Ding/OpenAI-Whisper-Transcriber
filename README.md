@@ -65,12 +65,27 @@ This script is designed to facilitate the transcription of YouTube videos into t
    ```
 
 3. Download FFmpeg and add it to environment variables:
-    
-    [Windows](https://phoenixnap.com/kb/ffmpeg-windows)
-    
-    [Mac](https://phoenixnap.com/kb/ffmpeg-mac)
-    
-    [Ubuntu](https://phoenixnap.com/kb/install-ffmpeg-ubuntu)
+
+   Windows:
+   If you do not have Scoop, run Powershell as administratior and run the following commands:
+   ```bash
+   Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+   Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
+   ```
+   Then on a command prompt, run:
+   ```bash
+   scoop install ffmpeg
+   ```
+
+   Mac:
+   ```bash
+   brew install ffmpeg
+   ```
+
+   Ubuntu:
+   ```bash
+   sudo apt update && sudo apt install ffmpeg
+   ```
       
 ## Usage
 
@@ -92,7 +107,7 @@ This script is designed to facilitate the transcription of YouTube videos into t
    Enter the YouTube video URL: https://www.youtube.com/watch?v=jNQXAC9IVRw
    ```
 
-   or
+   Here is a Spanish example:
 
    ```bash
    Enter the YouTube video URL: https://www.youtube.com/watch?v=ngRq82c8Baw
@@ -100,9 +115,9 @@ This script is designed to facilitate the transcription of YouTube videos into t
 
    You can copy the youtube link and use Shift+Ins to paste the link into the terminal.
 
-3. The script will download the audio, transcribe it, detect language, and save the transcription to a text file called `Transcription_{language}.txt`.
+3. The script will download the audio, transcribe it, detect language, and save the transcription to a text file called `Transcript_{language}.txt`.
 
-4. Access the transcription by opening the `Transcription_{language}.txt` file located in the same directory as the script.
+4. Access the transcription by opening the `Transcript_{language}.txt` file located in the same directory as the script.
 
 ## Workflow
 
@@ -111,7 +126,7 @@ This script is designed to facilitate the transcription of YouTube videos into t
 3. The audio stream is downloaded as an .mp3 file and saved in the `Audio` folder. Video stream can be optionally downloaded as an .mp4 format by uncommenting a block of code. Video of the highest resolution with audio is can also be optionally downloaded as an .mp4 format by uncommenting a block of code.
 4. The `whisper` library loads a base model and transcribes the downloaded audio into text.
 5. The `langdetect` library detects the language of the transcribed text.
-6. The transcription is saved to a text file named `Transcription_{language}.txt` with the language code as part of the filename and opened for the user to view. Audio file will be deleted but can be optionally kept by uncommenting a line.
+6. The transcription is saved to a text file named `Transcript_{language}.txt` with the language code as part of the filename and opened for the user to view. Audio file will be deleted but can be optionally kept by uncommenting a line.
 
 ## Known Issues
 
