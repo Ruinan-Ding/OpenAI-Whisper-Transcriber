@@ -33,8 +33,12 @@ This script is designed to facilitate the transcription of YouTube videos into t
 
 1. Python 3.6+
    - [Instruction for Windows](https://phoenixnap.com/kb/how-to-install-python-3-windows)
+   - [Instruction for Mac](https://docs.python-guide.org/starting/install3/osx/)
+   - [Instruction for Ubuntu](https://phoenixnap.com/kb/how-to-install-python-3-ubuntu)
 2. `pip` to install required libraries
-   - [Instruction for Windows](https://www.geeksforgeeks.org/how-to-install-pip-on-windows/)
+   - [Instruction for Windows](https://phoenixnap.com/kb/install-pip-windows)
+   - [Instruction for Mac](https://phoenixnap.com/kb/install-pip-mac)
+   - [Instruction for Ubuntu](https://phoenixnap.com/kb/how-to-install-pip-on-ubuntu)
 
 ## Required Libraries
 
@@ -90,10 +94,10 @@ This script is designed to facilitate the transcription of YouTube videos into t
 
 1. The user inputs a YouTube video URL when prompted.
 2. The `pytube` library is used to create a `YouTube` object and filter the audio stream.
-3. The audio stream is downloaded as an MP3 file and saved in the `Audio` folder.
+3. The audio stream is downloaded as an MP3 file and saved in the `Audio` folder. Video stream is optionally downloaded by uncommenting a block of code.
 4. The `whisper` library loads a base model and transcribes the downloaded audio into text.
 5. The `langdetect` library detects the language of the transcribed text.
-6. The transcription is saved to a text file named `Transcription_{language}.txt` with the language code as part of the filename and opened for the user to view.
+6. The transcription is saved to a text file named `Transcription_{language}.txt` with the language code as part of the filename and opened for the user to view. Audio file is deleted but can be optionally kept by uncommenting a line.
 
 ## Known Issues
 
