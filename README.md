@@ -74,7 +74,7 @@ This script is designed to facilitate the transcription of YouTube videos into t
       
 ## Usage
 
-1. Run the script:
+1. Run the script by opening the `OpenAIWhisperYouTubeTranscriber.py` file with Python or opening a command line terminal where the the file is and enter:
 
    ```bash
    python OpenAIWhisperYouTubeTranscriber.py
