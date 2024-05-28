@@ -133,7 +133,7 @@ You are a professional transcriber with 20 years of experience and you have been
 
 As of GPT-3.5, it tends to summarize the youtube transcript if it is too long, so you may need to break it into parts and ask ChatGPT to do each individually.
 
-How to get [YouTube transcript](https://www.descript.com/blog/article/transcript-of-youtube-videos).
+[How to get YouTube transcript.](https://www.descript.com/blog/article/transcript-of-youtube-videos)
 
 You can ask ChatGPT to refine the transcript, like using this prompt for example:
 
