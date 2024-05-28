@@ -38,6 +38,7 @@ yt = YouTube(url)
 #Uncomment the following block to download the video stream of the highest resolution with audio
 '''
 #Get the video stream in .mp4 format
+print("Downloading the video stream of the highest resolution with audio...")
 video_audio_stream = yt.streams.filter().get_highest_resolution()
 #Download the video stream
 output_path = "VideoWithAudio"
@@ -49,6 +50,7 @@ print(f"Video with audio downloaded to {output_path}/{filename}")
 #Uncomment the following block to download the video stream
 '''
 #Get the video stream in .mp4 format
+print("Downloading the video stream...")
 video_stream = yt.streams.filter(only_video = True).first()
 #Download the video stream
 output_path = "Video"
@@ -58,6 +60,7 @@ print(f"Video downloaded to {output_path}/{filename}")
 '''
 
 #Get the audio stream in .mp3 format
+print("Downloading the audio stream...")
 audio_stream = yt.streams.filter().get_audio_only()
 #Download the audio stream
 output_path = "Audio"
@@ -66,13 +69,29 @@ audio_stream.download(output_path = output_path, filename = filename)
 print(f"Audio downloaded to {output_path}/{filename}")
 
 
-#Load the base model and transcribe the audio
+#Load model and transcribe the audio
+print("Transcribing the audio...")
+
+#Uncomment any of the following line and comment out the selected model to use a different model. The larger the better quality but slower processing time. May require stronger PC for larger models.
+#model = whisper.load_model("tiny")
 model = whisper.load_model("base")
+#model = whisper.load_model("small")
+#model = whisper.load_model("medium")
+#model = whisper.load_model("large-v1")
+#model = whisper.load_model("large-v2")
+#model = whisper.load_model("large-v3")
+
+#These are the English models. Uncomment the following lines and comment out the selected model to use the English models. They preform better for English audio but may not work as well for other languages.
+#model = whisper.load_model("tiny.en")
+#model = whisper.load_model("base.en")
+#model = whisper.load_model("small.en")
+#model = whisper.load_model("medium.en")
+
 result = model.transcribe("Audio/Audio.mp3")
 transcribed_text = result["text"]
 print(transcribed_text)
 
-#Delete the audio file
+#Delete the audio file. Comment out the following line to keep the audio file
 os.remove(f"{output_path}/{filename}")
 
 #Detect the language
@@ -80,4 +99,4 @@ language = detect(transcribed_text)
 print(f"Detected language: {language}")
 
 #Create and open a txt file with the text
-create_and_open_txt(transcribed_text, f"Transcription_{language}.txt")
+create_and_open_txt(transcribed_text, f"Transcript_{language}.txt")
