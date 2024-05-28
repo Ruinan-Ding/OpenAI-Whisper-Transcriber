@@ -12,6 +12,8 @@ A sophisticated and user-friendly automation that downloads audio from YouTube v
   - [Installation](#installation)
   - [Usage](#usage)
   - [Workflow](#workflow)
+  - [Known Issues](#known-issues)
+  - [Tips](#tips)
   - [Contributing 🤝🌱](#contributing-)
     - [Pull Requests](#pull-requests)
     - [Issues](#issues)
