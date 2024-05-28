@@ -32,9 +32,9 @@ This script is designed to facilitate the transcription of YouTube videos into t
 ## Prerequisites
 
 1. Python 3.6+
-   [Instruction for Windows](https://phoenixnap.com/kb/how-to-install-python-3-windows)
+   - [Instruction for Windows](https://phoenixnap.com/kb/how-to-install-python-3-windows)
 2. `pip` to install required libraries
-   [Instruction for Windows](https://www.geeksforgeeks.org/how-to-install-pip-on-windows/)
+   - [Instruction for Windows](https://www.geeksforgeeks.org/how-to-install-pip-on-windows/)
 
 ## Required Libraries
 
