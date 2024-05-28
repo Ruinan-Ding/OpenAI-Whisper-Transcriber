@@ -4,7 +4,7 @@
 #Ruinan Ding
 
 #Description
-#To run this script, use the following command:
+#To run this script, open this script with Python or use the following command in a command line terminal where this file is:
 #python OpenAIWhisperYouTubeTranscriber.py
 #Input the YouTube video URL when prompted, and it will download the audio and video streams from the URL along with the transcription of the audio.
 
