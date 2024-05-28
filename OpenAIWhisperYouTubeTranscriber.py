@@ -35,24 +35,36 @@ url = input("Enter the YouTube video URL: ")
 #Create a YouTube object from the URL
 yt = YouTube(url)
 
-#Uncomment the following lines to download the video stream
-#Get the video stream
-#video_stream = yt.streams.filter().first()
+#Uncomment the following block to download the video stream of the highest resolution with audio
+'''
+#Get the video stream in .mp4 format
+video_audio_stream = yt.streams.filter().get_highest_resolution()
 #Download the video stream
-#output_path = "Video"
-#filename = "Video.mp4"
-#video_stream.download(output_path = output_path, filename = filename)
+output_path = "VideoWithAudio"
+filename = "VideoWithAudio.mp4"
+video_audio_stream.download(output_path = output_path, filename = filename)
+print(f"Video with audio downloaded to {output_path}/{filename}")
+'''
 
-#Get the audio stream
-audio_stream = yt.streams.filter(only_audio = True).first()
+#Uncomment the following block to download the video stream
+'''
+#Get the video stream in .mp4 format
+video_stream = yt.streams.filter(only_video = True).first()
+#Download the video stream
+output_path = "Video"
+filename = "Video.mp4"
+video_stream.download(output_path = output_path, filename = filename)
+print(f"Video downloaded to {output_path}/{filename}")
+'''
 
+#Get the audio stream in .mp3 format
+audio_stream = yt.streams.filter().get_audio_only()
 #Download the audio stream
 output_path = "Audio"
 filename = "Audio.mp3"
 audio_stream.download(output_path = output_path, filename = filename)
-
 print(f"Audio downloaded to {output_path}/{filename}")
-print(f"Video downloaded to {output_path}/{filename}")
+
 
 #Load the base model and transcribe the audio
 model = whisper.load_model("base")
